@@ -1,0 +1,1678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InteHomeFurn</class>
+ <widget class="QWidget" name="InteHomeFurn">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QToolButton" name="toolButton">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>70</y>
+     <width>168</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton_2">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>120</y>
+     <width>168</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton_3">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>170</y>
+     <width>168</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton_4">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>220</y>
+     <width>168</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton_5">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>270</y>
+     <width>168</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton_6">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>315</y>
+     <width>168</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton_7">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>360</y>
+     <width>168</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+  </widget>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>587</width>
+     <height>356</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="page">
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>550</x>
+       <y>330</y>
+       <width>21</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>587</width>
+       <height>356</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>330</y>
+       <width>21</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>587</width>
+       <height>356</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="sunLabel">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>156</y>
+       <width>120</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="paLabel">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>237</y>
+       <width>120</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="tempLabel">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>75</y>
+       <width>120</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="tempValLabel1">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>80</y>
+       <width>100</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="sunValLabel1">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>158</y>
+       <width>100</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="rainLabel">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>276</y>
+       <width>120</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="humLabel">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>113</y>
+       <width>120</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="airLabel">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>196</y>
+       <width>120</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="humValLabel1">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>117</y>
+       <width>100</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="fireLabel">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>314</y>
+       <width>120</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_3">
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>550</x>
+       <y>330</y>
+       <width>21</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>587</width>
+       <height>356</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="gasLabel">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>82</y>
+       <width>100</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="manLabel">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>235</y>
+       <width>100</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="doorLabel">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>288</y>
+       <width>100</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="smogLabel">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>136</y>
+       <width>100</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="fengshanLabel">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>100</y>
+       <width>70</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="yuyinLabel">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>250</y>
+       <width>130</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <zorder>label_9</zorder>
+    <zorder>label_3</zorder>
+    <zorder>gasLabel</zorder>
+    <zorder>manLabel</zorder>
+    <zorder>doorLabel</zorder>
+    <zorder>smogLabel</zorder>
+    <zorder>fengshanLabel</zorder>
+    <zorder>yuyinLabel</zorder>
+   </widget>
+   <widget class="QWidget" name="page_4">
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>330</y>
+       <width>21</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>587</width>
+       <height>356</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_6">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>260</y>
+       <width>181</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>强电设备1</string>
+     </property>
+     <widget class="QToolButton" name="powerCloseTB1">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>20</y>
+        <width>75</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>强电设备1关闭</string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="powerOpenTB1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>75</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>强电设备1打开</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="powerLabel1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>171</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_7">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>260</y>
+       <width>181</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>强电设备2</string>
+     </property>
+     <widget class="QLabel" name="powerLabel2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>171</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="powerOpenTB2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>75</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>强电设备2打开</string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="powerCloseTB2">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>20</y>
+        <width>75</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>强电设备2关闭</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>50</y>
+       <width>110</width>
+       <height>190</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="title">
+      <string>红外设备</string>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>13</x>
+        <y>23</y>
+        <width>84</width>
+        <height>164</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_12">
+       <item>
+        <widget class="QRadioButton" name="projectorRB">
+         <property name="text">
+          <string>投影机</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="televisionRB">
+         <property name="text">
+          <string>电视机</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="aircondfanRB">
+         <property name="text">
+          <string>空调扇</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="aircondRB">
+         <property name="text">
+          <string>空调</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="speakerRB">
+         <property name="text">
+          <string>音箱</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="DVDplayerRB">
+         <property name="text">
+          <string>DVD</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QStackedWidget" name="stackedWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>50</y>
+       <width>220</width>
+       <height>190</height>
+      </rect>
+     </property>
+     <property name="acceptDrops">
+      <bool>false</bool>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="QWidget" name="projectorPage1">
+      <widget class="QLabel" name="pagelabel1">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>170</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P1_openTB">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>80</y>
+         <width>70</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>开</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P1_closeTB">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>80</y>
+         <width>71</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>关</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="televisionPage2">
+      <widget class="QLabel" name="pagelabel2">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>170</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P2_openTB">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>30</y>
+         <width>75</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>开</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P2_closeTB">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>30</y>
+         <width>75</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>关</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P2_addsoundTB">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>65</y>
+         <width>75</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>音量+</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P2_redusoundTB">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>65</y>
+         <width>75</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>音量-</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P2_AVtypeTB">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>100</y>
+         <width>120</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>AV模式</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P2_addchannelTB">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>135</y>
+         <width>75</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>频道+</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P2_reduchannelTB">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>135</y>
+         <width>75</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>频道-</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="aircondfanPage3">
+      <widget class="QLabel" name="pagelabel3">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>170</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>3</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P3_openTB">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>50</y>
+         <width>75</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>开</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P3_closeTB">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>50</y>
+         <width>75</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>关</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P3_windspeedTB">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>100</y>
+         <width>75</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>风速</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P3_winddireTB">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>100</y>
+         <width>75</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>风向</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="aircondfPage4">
+      <widget class="QLabel" name="pagelabel4">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>170</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>4</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P4_openTB">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>40</y>
+         <width>75</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>开</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P4_closeTB">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>40</y>
+         <width>75</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>关</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P4_presetTB">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>75</y>
+         <width>120</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>预设温度</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P4_windspeedTB">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>110</y>
+         <width>75</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>风速</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P4_winddireTB">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>110</y>
+         <width>75</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>风向</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="speakerPage5">
+      <widget class="QLabel" name="pagelabel5">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>170</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>5</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P5_openTB">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>50</y>
+         <width>75</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>开</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P5_closeTB">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>50</y>
+         <width>75</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>关</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P5_addsoundTB">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>100</y>
+         <width>75</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>音量+</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P5_redusoundTB">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>100</y>
+         <width>75</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>音量-</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="DVDplayerPage6">
+      <widget class="QLabel" name="pagelabel6">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>170</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>6</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P6_oporclTB">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>20</y>
+         <width>120</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>开/关</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P6_addsoundTB">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>55</y>
+         <width>75</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>音量+</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P6_redusoundTB">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>55</y>
+         <width>75</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>音量-</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P6_intooroutTB">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>85</y>
+         <width>120</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>进/出仓</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P6_playorpauseTB">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>115</y>
+         <width>120</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>播放/暂停</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P6_fastforwardTB">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>145</y>
+         <width>75</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>快进</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="P6_rewindTB">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>145</y>
+         <width>75</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>快退</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_4">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>190</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QToolButton" name="addlightTB">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>10</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>+</string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="redulightTB">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>10</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>-</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_29">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>14</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>调光</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>50</y>
+       <width>161</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QToolButton" name="equipcloseTB">
+      <property name="geometry">
+       <rect>
+        <x>77</x>
+        <y>40</y>
+        <width>75</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>设备关</string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="equipopenTB">
+      <property name="geometry">
+       <rect>
+        <x>77</x>
+        <y>10</y>
+        <width>75</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>设备开</string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="equipstopTB">
+      <property name="geometry">
+       <rect>
+        <x>77</x>
+        <y>70</y>
+        <width>75</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>设备停</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="curtainLabel">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>110</y>
+        <width>141</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>10</y>
+        <width>21</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label_13">
+         <property name="text">
+          <string>窗</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_14">
+         <property name="text">
+          <string>帘</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QToolButton" name="toolButton_8">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>280</y>
+       <width>60</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_5">
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>550</x>
+       <y>330</y>
+       <width>21</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>587</width>
+       <height>356</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="pix1Label">
+     <property name="geometry">
+      <rect>
+       <x>223</x>
+       <y>42</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="pix8Label">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>147</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="pix9Label">
+     <property name="geometry">
+      <rect>
+       <x>223</x>
+       <y>182</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="pix2Label">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>42</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="pix6Label">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>112</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="pix18Label">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>322</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="pix10Label">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>182</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="pix17Label">
+     <property name="geometry">
+      <rect>
+       <x>223</x>
+       <y>322</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="pix5Label">
+     <property name="geometry">
+      <rect>
+       <x>223</x>
+       <y>112</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="pix15Label">
+     <property name="geometry">
+      <rect>
+       <x>223</x>
+       <y>287</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="pix4Label">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>77</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="pix11Label">
+     <property name="geometry">
+      <rect>
+       <x>223</x>
+       <y>217</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="pix16Label">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>287</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="pix12Label">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>217</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="pix7Label">
+     <property name="geometry">
+      <rect>
+       <x>223</x>
+       <y>147</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="pix3Label">
+     <property name="geometry">
+      <rect>
+       <x>223</x>
+       <y>77</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="pix14Label">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>252</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="pix13Label">
+     <property name="geometry">
+      <rect>
+       <x>223</x>
+       <y>252</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_6">
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>550</x>
+       <y>330</y>
+       <width>21</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>587</width>
+       <height>356</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="sunValLabel6">
+     <property name="geometry">
+      <rect>
+       <x>228</x>
+       <y>120</y>
+       <width>100</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="tempValLabel6">
+     <property name="geometry">
+      <rect>
+       <x>228</x>
+       <y>170</y>
+       <width>100</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="humValLabel6">
+     <property name="geometry">
+      <rect>
+       <x>228</x>
+       <y>215</y>
+       <width>100</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="sunLineEdit">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>120</y>
+       <width>151</width>
+       <height>27</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="tempLineEdit">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>170</y>
+       <width>151</width>
+       <height>27</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="humLineEdit">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>215</y>
+       <width>151</width>
+       <height>27</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton_9">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>280</y>
+       <width>168</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

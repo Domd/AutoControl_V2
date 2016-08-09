@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TestGprs</class>
+ <widget class="QWidget" name="TestGprs">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="Tb_Simple">
+   <property name="geometry">
+    <rect>
+     <x>512</x>
+     <y>104</y>
+     <width>210</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bitstream Charter</family>
+     <pointsize>24</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>简单测试</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Tb_ReadID">
+   <property name="geometry">
+    <rect>
+     <x>512</x>
+     <y>160</y>
+     <width>210</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bitstream Charter</family>
+     <pointsize>24</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>显示ICCID号</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Tb_Signal">
+   <property name="geometry">
+    <rect>
+     <x>512</x>
+     <y>216</y>
+     <width>210</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bitstream Charter</family>
+     <pointsize>24</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>网络信号查询</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Tb_Call">
+   <property name="geometry">
+    <rect>
+     <x>512</x>
+     <y>272</y>
+     <width>111</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bitstream Charter</family>
+     <pointsize>24</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>电话测试</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Tb_Message">
+   <property name="geometry">
+    <rect>
+     <x>512</x>
+     <y>328</y>
+     <width>210</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bitstream Charter</family>
+     <pointsize>24</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>短信测试</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Tb_Back">
+   <property name="geometry">
+    <rect>
+     <x>512</x>
+     <y>384</y>
+     <width>210</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bitstream Charter</family>
+     <pointsize>24</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="line_data">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>160</y>
+     <width>441</width>
+     <height>261</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Le_ATData">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>430</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Tb_Send">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>430</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Abyssinica SIL</family>
+     <pointsize>24</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>发送</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>311</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>12</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Abyssinica SIL</family>
+      <pointsize>36</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>电话号码：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Le_Message">
+    <property name="geometry">
+     <rect>
+      <x>103</x>
+      <y>70</y>
+      <width>191</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Short Message Test</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Le_PhoneNum">
+    <property name="geometry">
+     <rect>
+      <x>103</x>
+      <y>12</y>
+      <width>191</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>18551051545</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>13</x>
+      <y>70</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Abyssinica SIL</family>
+      <pointsize>36</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>短信息：</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>42</x>
+     <y>434</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Abyssinica SIL</family>
+     <pointsize>28</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>发送AT指令：</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>37</y>
+     <width>311</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>13</y>
+      <width>161</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>13800662500</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>9</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Abyssinica SIL</family>
+      <pointsize>36</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>短信中心号码</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="Tb_Break">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>272</y>
+     <width>91</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bitstream Charter</family>
+     <pointsize>24</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>挂断</string>
+   </property>
+  </widget>
+  <zorder>groupBox_2</zorder>
+  <zorder>label_4</zorder>
+  <zorder>Tb_Simple</zorder>
+  <zorder>Tb_ReadID</zorder>
+  <zorder>Tb_Signal</zorder>
+  <zorder>Tb_Call</zorder>
+  <zorder>Tb_Message</zorder>
+  <zorder>Tb_Back</zorder>
+  <zorder>line_data</zorder>
+  <zorder>Le_ATData</zorder>
+  <zorder>Tb_Send</zorder>
+  <zorder>groupBox</zorder>
+  <zorder>Tb_Break</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
